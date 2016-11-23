@@ -15,17 +15,17 @@
 */
 package examples.basicRouter.components.bootstrap
 
-import react._
+import com.glipka.easyReactJS.react._
 import org.scalajs.dom._
 import scalajs.js
 import scalajs.js._
 import scala.scalajs.js.annotation.ScalaJSDefined
 import scala.scalajs.js.JSConverters._
-import reactRouter._
-import reactRouter.ReactRouter._
-import react.xml.XmlToCreatElement
-import reactRouterBootstrap._
-import reactRouterBootstrap.ReactRouterBootstrap._
+import com.glipka.easyReactJS.reactRouter._
+import com.glipka.easyReactJS.reactRouter.ReactRouter._
+import com.glipka.easyReactJS.react.xml.XmlToCreatElement
+import com.glipka.easyReactJS.reactRouterBootstrap._
+import com.glipka.easyReactJS.reactRouterBootstrap.ReactRouterBootstrap._
 
 
 @js.native
@@ -55,7 +55,7 @@ val styleRed=js.Dynamic.literal("color" -> "red")
         <li><Link to="/boostrapComponents/mediaContent" activeStyle={ styleRed }>MediaContent</Link></li>
         <li><Link to="/boostrapComponents/miscellaneous" activeStyle={ styleRed }>Miscellaneoust</Link></li>
       </ul>
-      { this.props.children }
+   
     </div>
 
   }

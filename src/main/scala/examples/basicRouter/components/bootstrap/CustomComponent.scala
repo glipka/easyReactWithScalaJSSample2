@@ -15,14 +15,14 @@
 */
 package examples.basicRouter.components.bootstrap
 
-import react._
+import com.glipka.easyReactJS.react._
 import org.scalajs.dom._
 import scalajs.js
 import scalajs.js._
 import scala.scalajs.js.annotation.ScalaJSDefined
 import scala.scalajs.js.JSConverters._
-import reactRouter._
-import react.xml.XmlToCreatElement
+import com.glipka.easyReactJS.reactRouter._
+import com.glipka.easyReactJS.react.xml.XmlToCreatElement
 
 
 

@@ -15,17 +15,17 @@
 */
 package examples.basicRouter.components.bootstrap
 
-import react._
+import com.glipka.easyReactJS.react._
 import org.scalajs.dom._
 import scalajs.js
 import scalajs.js._
 import scala.scalajs.js.annotation.ScalaJSDefined
 import scala.scalajs.js.JSConverters._
-import reactRouter._
-import reactBootstrap.ReactBootstrap._
-import reactBootstrap.Common._
-import reactBootstrap._
-import react.xml.XmlToCreatElement
+import com.glipka.easyReactJS.reactRouter._
+import com.glipka.easyReactJS.reactBootstrap.ReactBootstrap._
+import com.glipka.easyReactJS.reactBootstrap.Common._
+import com.glipka.easyReactJS.reactBootstrap._
+import com.glipka.easyReactJS.react.xml.XmlToCreatElement
 
 import scala.scalajs.js.Any.fromString
 import scala.scalajs.js.Any.fromUnit
@@ -44,7 +44,7 @@ class ModalState extends js.Object {
 }
 @ScalaJSDefined
 class ModalSample(val props: JSPropsModal[Any]) extends Component[JSPropsModal[Any], ModalState](props) {
-  import reactBootstrap.ReactBootstrap._
+  import com.glipka.easyReactJS.reactBootstrap.ReactBootstrap._
   override def componentWillMount: Unit = {
     this.state = new ModalState
 
